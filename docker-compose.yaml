@@ -1,0 +1,8 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    ports:
+      - "5432:${DB_PORT:-5432}"
+    environment:
+      POSTGRES_PASSWORD: secret

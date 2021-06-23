@@ -1,3 +1,18 @@
+# PyLotto
+
+Recently restarted development on this and looking to add a neural network component to try and do some real predictions.
+
+## Developer Instructions
+1. You will need the following:
+* Git
+* Docker
+* Python 3.7 or higher
+* Linux-like dev environment (this project was designed on OSX)
+2. Spin up local database
+* `docker-compose up -d`
+
+
+# OLD INFORMATION
 # LOTTO
 
 Basically trying to gather data from every Lotto and create an instance of each that will;
